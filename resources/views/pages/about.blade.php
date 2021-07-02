@@ -1,6 +1,5 @@
 @extends('layouts.index')
 
-
 @section("content")
 @include("partial.header")
     <section class="page-section about-heading">
