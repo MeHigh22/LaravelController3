@@ -9,37 +9,37 @@
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">{{$varOpen->titre}}</span>
-                <span class="section-heading-lower">{{$varOpen->titreSecond}}</span>
+                <span class="section-heading-upper">{{$varAbout[0]->titre}}</span>
+                <span class="section-heading-lower">{{$varAbout[0]->titreSecond}}</span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                 <li class="list-unstyled-item list-hours-item d-flex">
-                 {{$varDays[0]->sunday}}
-                  <span class="ml-auto">{{$varOpen->closed}}</span>
+                 {{$varDays[6]->Day}}
+                  <span class="ml-auto">{{$varDays[6]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->monday}}
-                  <span class="ml-auto">{{$varHours}}</span>
+                   {{$varDays[0]->Day}}
+                  <span class="ml-auto">{{$varDays[0]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->tuesday}}
-                  <span class="ml-auto">{{$varHours}}</span>
+                   {{$varDays[1]->Day}}
+                  <span class="ml-auto">{{$varDays[1]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->wednesday}}
-                  <span class="ml-auto">{{$varHours}}</span>
+                   {{$varDays[2]->Day}}
+                  <span class="ml-auto">{{$varDays[2]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->thursday}}
-                  <span class="ml-auto">{{$varHours}}</span>
+                   {{$varDays[3]->Day}}
+                  <span class="ml-auto">{{$varDays[3]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->friday}}
-                  <span class="ml-auto">{{$varHours}}</span>
+                   {{$varDays[4]->Day}}
+                  <span class="ml-auto">{{$varDays[4]->Hour}}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                   {{$varDays[0]->saturday}}
-                  <span class="ml-auto">{{$varSaturday}}</span>
+                   {{$varDays[5]->Day}}
+                  <span class="ml-auto">{{$varDays[5]->Hour}}</span>
                 </li>
               </ul>
               <p class="address mb-5">
