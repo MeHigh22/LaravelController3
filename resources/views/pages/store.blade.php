@@ -44,17 +44,17 @@
               </ul>
               <p class="address mb-5">
                 <em>
-                  <strong>{{$varAdresse->titre}}</strong>
+                  <strong>{{$varAdresse[1]->titre}}</strong>
                   <br>
-                  {{$varAdresse->titreSecond}}
+                  {{$varAdresse[1]->titreSecond}}
                 </em>
               </p>
               <p class="mb-0">
                 <small>
-                  <em>{{$varAdresse->call}}</em>
+                  <em>{{$varAdresse[1]->calll}}</em>
                 </small>
                 <br>
-                {{$varAdresse->num}}
+                {{$varAdresse[1]->num}}
               </p>
             </div>
           </div>
